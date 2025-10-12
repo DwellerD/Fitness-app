@@ -1,0 +1,22 @@
+{
+  "title": "Meal",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "user_id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "type": { "type": "string", "enum": ["breakfast", "lunch", "dinner", "snack"] },
+    "items": { "type": "array", "items": { "$ref": "./foodItem.json" } },
+    "total_kcal": { "type": "number" },
+    "macros": {
+      "type": "object",
+      "properties": {
+        "protein": { "type": "number" },
+        "fat": { "type": "number" },
+        "carbs": { "type": "number" },
+        "fiber": { "type": "number" }
+      }
+    }
+  },
+  "required": ["id", "user_id", "timestamp", "type"]
+}

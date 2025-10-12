@@ -1,0 +1,12 @@
+{
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "email": { "type": "string" },
+    "name": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "prefs": { "type": "object" }
+  },
+  "required": ["id", "email", "created_at"]
+}

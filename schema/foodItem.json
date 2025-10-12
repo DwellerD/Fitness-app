@@ -1,0 +1,15 @@
+{
+  "title": "FoodItem",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "serving_size": { "type": "string" },
+    "kcal": { "type": "number" },
+    "protein": { "type": "number" },
+    "fat": { "type": "number" },
+    "carbs": { "type": "number" },
+    "fiber": { "type": "number" }
+  },
+  "required": ["id", "name", "kcal"]
+}
