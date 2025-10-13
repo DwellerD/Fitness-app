@@ -7,3 +7,5 @@ This project helps users log daily meals and view nutrition totals.
 - Define data schema (User, Meal, FoodItem)
 - Add mock data
 - Prepare for Day 2 database setup
+## Steps
+
