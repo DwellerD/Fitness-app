@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "890972056628",
+    "project_id": "your-fitness-ai-app-d1523",
+    "storage_bucket": "your-fitness-ai-app-d1523.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890972056628:android:71cfd098a76c31c3a16e61",
+        "android_client_info": {
+          "package_name": "com.example.fitness_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHsvWBz7pu0DhgI53T_jomp-Mw8c822FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
